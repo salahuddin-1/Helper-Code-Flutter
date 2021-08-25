@@ -1,0 +1,12 @@
+1. Open your JDK folder & navigate to bin
+2. Open command prompt in that bin folder
+3. Type this command
+4. Change user name in path
+
+
+
+keytool -list -v -keystore "C:\Users\yourusernamehere\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+Note : For getting your username navigate to C/Users and check in every user directory for .android folder
+And if it is present in that directory that is the path.
+Show hidden files if want.
