@@ -10,3 +10,13 @@ keytool -list -v -keystore "C:\Users\yourusernamehere\.android\debug.keystore" -
 Note : For getting your username navigate to C/Users and check in every user directory for .android folder
 And if it is present in that directory that is the path.
 Show hidden files if want.
+
+
+
+
+
+FOR MAC :
+
+Command to obtain keys
+
+keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
