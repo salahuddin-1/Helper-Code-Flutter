@@ -1,0 +1,19 @@
+Making new project in GIT
+
+
+
+
+1. Check if master repo exists remotely & if doesn’t create a new branch named master
+2. Create a new folder for that project (abc)
+3. Go to abc through terminal 
+4. git init
+5. git add README.md
+6. git commit -m "first commit"
+7. git fetch
+8. Checkout to master through your IDE or git checkout <remote-branch-name>
+9.  Git push or git push set upstream
+10. Now you checkout to the other branches from master and their parent will be master and copy and or make new files to that repo and push
+
+
+
+
