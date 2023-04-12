@@ -1,0 +1,17 @@
+Error Resolved
+
+
+1. Path Error 
+
+App-specific directory on external storage
+Starting on Android 11, apps cannot create their own app-specific directory on external storage (This means app’s Internal Storage)
+
+It means u cannot create your own specified custom folder path like :
+
+'/storage/emulated/0/Capital_Bank’ 
+
+Here Downloads already comes define
+
+'/storage/emulated/0/Download'
+or
+getExternalStorageDirectory();
