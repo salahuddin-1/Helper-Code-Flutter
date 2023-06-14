@@ -3,6 +3,12 @@ import 'dart:isolate';
 // Main isolate is the default isolate that runs when the app starts
 // Spawned isolate is the isolate that is created by the main isolate
 
+// 1. The isolate function should be a top level function, where u use the 
+// sendport.send. If it's not a top level function it doesn't work
+
+// 2. You can pass Objects, other datatypes too in isolates and receive them
+
+
 // Steps
 // Create a ReceivePort object
 // This object will be used to listen for messages and have a sendPort
