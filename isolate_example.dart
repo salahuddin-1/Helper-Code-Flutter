@@ -8,6 +8,11 @@ import 'dart:isolate';
 
 // 2. You can pass Objects, other datatypes too in isolates and receive them
 
+// 3. Declare a global ReceivePort object and initialise it in a constructor 
+// of a class you want to use. And also dispose it with the class's dispose
+// method. We declare it globally so that it can be used in the top level
+// isolate function
+
 
 // Steps
 // Create a ReceivePort object
