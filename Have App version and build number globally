@@ -37,3 +37,5 @@ android {
 }
 
 
+Note : After these changes, the only place you have to update is your 
+pubspec.yaml file, whenever you want to change the version and build number.
