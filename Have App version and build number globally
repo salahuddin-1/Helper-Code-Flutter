@@ -12,6 +12,7 @@ MARKETING_VERSION = "$(FLUTTER_BUILD_NAME)";
 
 
 In ios/Runner/Info.plist
+
 <key>CFBundleVersion</key>
 <string>$(CURRENT_PROJECT_VERSION)</string>
 
