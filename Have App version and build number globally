@@ -1,0 +1,38 @@
+Have App version and build number globally
+
+
+
+iOS
+
+
+In ios/Runner.xcodeproj/project.pbxproj
+
+CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+MARKETING_VERSION = "$(FLUTTER_BUILD_NAME)";
+
+
+In ios/Runner/Info.plist
+<key>CFBundleVersion</key>
+<string>$(CURRENT_PROJECT_VERSION)</string>
+
+<key>CFBundleShortVersionString</key>
+<string>$(MARKETING_VERSION)</string>
+
+
+
+
+Android
+
+
+In android/app/build.gradle
+
+android {
+  ...
+  defaultConfig {
+    ...
+    versionCode flutterVersionCode.toInteger()
+    versionName flutterVersionName
+  }
+}
+
+
