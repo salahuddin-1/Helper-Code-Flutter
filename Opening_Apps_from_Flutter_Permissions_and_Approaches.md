@@ -9,8 +9,8 @@ Use with caution and comply with regulations.
 
 Declare specific packages your app needs to interact with.
 Provides targeted access without QUERY_ALL_PACKAGES.
-# Example: <queries><package android:name="com.capitalbank.pay" /></queries>
-# Using external_app_launcher Package:
+Example: <queries><package android:name="com.capitalbank.pay" /></queries>
+Using external_app_launcher Package:
 
 Convenient way to launch other apps from Flutter.
 Retrieves launch intent and starts the app.
