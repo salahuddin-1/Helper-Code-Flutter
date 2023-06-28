@@ -5,7 +5,7 @@ Opening Apps from Flutter App: Permissions and Approaches
 Grants broad access to all installed packages.
 Raises privacy and security concerns.
 Use with caution and comply with regulations.
-# Using <queries> Section:
+Using <queries> Section:
 
 Declare specific packages your app needs to interact with.
 Provides targeted access without QUERY_ALL_PACKAGES.
