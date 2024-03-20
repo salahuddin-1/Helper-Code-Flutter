@@ -20,6 +20,10 @@ Alt: Split view widget on desktop & web + Drawer navigation on mobile
 
 ---
 
-| Previous | Next |
-| -------- | ---- |
+| Previous | Next                                                              |
+| -------- | ----------------------------------------------------------------- |
 |          | [Flutter create --sample](../0002-flutter-create-sample/index.md) |
+
+```language
+// Your code goes here
+```
