@@ -1,6 +1,6 @@
 # Tips and some basic information about Mobile Development and Flutter
 
-### 1
+### # Tip 1
 
 Never include "\_" in your bundle ID and package name, it is a bad practise
 
