@@ -12,5 +12,6 @@ Android Package Name: The Android package name also uses reverse-DNS notation an
 
 Here's an example of a valid bundle identifier and package name:
 
-iOS: com.example.myapp
-Android: com.example.myapp
+#### iOS: com.example.myapp
+
+#### Android: com.example.myapp
